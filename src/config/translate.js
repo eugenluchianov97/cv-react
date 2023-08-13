@@ -1,4 +1,4 @@
-{
+export default {
   "ro": {
     "name": "Eugen",
     "surname": "Luchianov",
@@ -8,9 +8,9 @@
     "email": "Email",
     "location_value": "Moldova, Chișinău",
     "intro": {
-       "title": "Introducere",
-       "about_me": "Despre mine",
-       "about_me_value": "<p>\n                                        Salut, ma numesc Eugen Luchianov, am 25 de ani, fac dezvoltare web de aproximativ 4 ani.\n                                        Acest site este pagina mea de CV, pe una dintre paginile de forum IT de pe Internet pe care le-am citit\n                                        idee de a-ți face CV-ul nu doar ca fișier text, ci ca un site complet.. Mi-a plăcut\n                                        aceasta idee si am decis sa-mi fac propria pagina :)\n\n</p>\n<p>\nPentru a-mi implementa planul, am decis să folosesc React.js, pentru că nu am vrut să fac\n                                        o simplă pagină HTML + CSS... asta nu mai este interesant pentru nimeni, dar\n    a face ceva interactiv cu React este mai interesant! :)\n                                    </p>"
+      "title": "Introducere",
+      "about_me": "Despre mine",
+      "about_me_value": "<p>\n                                        Salut, ma numesc Eugen Luchianov, am 25 de ani, fac dezvoltare web de aproximativ 4 ani.\n                                        Acest site este pagina mea de CV, pe una dintre paginile de forum IT de pe Internet pe care le-am citit\n                                        idee de a-ți face CV-ul nu doar ca fișier text, ci ca un site complet.. Mi-a plăcut\n                                        aceasta idee si am decis sa-mi fac propria pagina :)\n\n</p>\n<p>\nPentru a-mi implementa planul, am decis să folosesc React.js, pentru că nu am vrut să fac\n                                        o simplă pagină HTML + CSS... asta nu mai este interesant pentru nimeni, dar\n    a face ceva interactiv cu React este mai interesant! :)\n                                    </p>"
     },
     "experience": {
       "title": "EXPERIENŢĂ",
@@ -55,21 +55,21 @@
 
     },
     "experience": {
-       "title": "ОПЫТ РАБОТЫ",
-       "subtitle": "Тут я работал :)",
-       "present": "настоящее время",
-       "december": "Декабрь",
-       "june": "Июль",
-       "february":"Февраль",
-       "frontendDev":"Frontend Разработчик",
-       "webDev":"Web Разработчик",
-       "laravelDev": "Laravel Разработчик",
-       "fullDev": "Full-stack Разработчик",
-       "customagic":"Разработка проектов на PHP(Laravel), Java Script (React.js,Vue.js,Electron.js).Сотрудничество с разработчиками 1С для написания API",
-       "rts":"Поддеркжа сущесвующих преоктов PHP(Laravel), устранение багов, рефакторинг кода, оптимизация кода и тд",
-       "moldtelecom":"Поддержка сайта компании, устранение багов, рефакторинг кода, доработка новых модулей , оптимизация кода и тд.",
-       "bpro": "Разработка и поддержка сайтов на основе 1C-Bitrix, написание модулей для AmoCrm, написание API",
-       "proplus": "Разработка шаблонов для сайтов компании, настрйока и заполнение сайтов на основе Wordpress и тд."
+      "title": "ОПЫТ РАБОТЫ",
+      "subtitle": "Тут я работал :)",
+      "present": "настоящее время",
+      "december": "Декабрь",
+      "june": "Июль",
+      "february":"Февраль",
+      "frontendDev":"Frontend Разработчик",
+      "webDev":"Web Разработчик",
+      "laravelDev": "Laravel Разработчик",
+      "fullDev": "Full-stack Разработчик",
+      "customagic":"Разработка проектов на PHP(Laravel), Java Script (React.js,Vue.js,Electron.js).Сотрудничество с разработчиками 1С для написания API",
+      "rts":"Поддеркжа сущесвующих преоктов PHP(Laravel), устранение багов, рефакторинг кода, оптимизация кода и тд",
+      "moldtelecom":"Поддержка сайта компании, устранение багов, рефакторинг кода, доработка новых модулей , оптимизация кода и тд.",
+      "bpro": "Разработка и поддержка сайтов на основе 1C-Bitrix, написание модулей для AmoCrm, написание API",
+      "proplus": "Разработка шаблонов для сайтов компании, настрйока и заполнение сайтов на основе Wordpress и тд."
 
     },
     "skills":{

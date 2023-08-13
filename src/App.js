@@ -10,7 +10,7 @@ import Footer from "./sections/Footer";
 import Hobby from "./sections/Hobby";
 import {useEffect,useState} from "react";
 
-import config from "./config/config.json"
+import config from "./config/config.js"
 
 import LangContext from "./contexts/langContext";
 

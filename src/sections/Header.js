@@ -1,6 +1,6 @@
-import config from './../config/config.json'
-import translate from './../config/translate.json'
-import constant from './../config/const.json'
+import config from './../config/config.js'
+import translate from './../config/translate.js'
+import constant from './../config/const.js'
 
 import LangContext from "./../contexts/langContext";
 import {useContext, useEffect} from "react";
