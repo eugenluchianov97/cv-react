@@ -1,7 +1,8 @@
-import translate from './../config/translate.js'
+
 
 import {useContext, useEffect, useRef} from "react";
 import LangContext from "../contexts/langContext";
+import translate from "../config/translate";
 
 export default  () => {
 

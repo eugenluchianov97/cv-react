@@ -1,5 +1,5 @@
 
-import translate from './../config/translate.js'
+import translate from '../config/translate.js'
 
 import {useContext} from "react";
 import LangContext from "../contexts/langContext";
