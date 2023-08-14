@@ -19,15 +19,15 @@ import LangContext from "./contexts/langContext";
 
 function App() {
 
-    const [lang, setLang] = useState(localStorage.getItem("LANG"));
+    const [lang, setLang] = useState(config.lang);
     const setLanguage = (lang) => {
         setLang(lang)
     }
+
     useEffect(() => {
-        if(!lang && config.langs.includes(lang)) {
+        if(!(localStorage.getItem("LANG") !== null  && config.langs.includes(lang))){
             localStorage.setItem("LANG",config.lang)
         }
-    })
 
 
   return (
