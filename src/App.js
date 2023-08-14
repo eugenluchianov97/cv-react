@@ -25,9 +25,10 @@ function App() {
     }
 
     useEffect(() => {
-        if(!(localStorage.getItem("LANG") !== null  && config.langs.includes(lang))){
-            localStorage.setItem("LANG",config.lang)
+        if (!(localStorage.getItem("LANG") !== null && config.langs.includes(lang))) {
+            localStorage.setItem("LANG", config.lang)
         }
+    })
 
 
   return (
